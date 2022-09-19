@@ -94,7 +94,7 @@ ul {
     display: none;
 }
 .advantages .title {
-    color: var(--main-text-color:);
+    color: var(--main-text-color);
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
