@@ -5,7 +5,7 @@
 --white-color: #FFFFFF;
 
 --hero-footer-background-color: #2F303A;
---team-background-color: #F5F4FA;
+--team-buttons-background-color: #F5F4FA;
 }
 
 body {
@@ -85,12 +85,12 @@ ul {
     font-size: 16px;
     line-height: 30px;
     letter-spacing: 0.06em;
-    /* cursor: pointer; */
+    cursor: pointer;
 }
 
 /* Advantages */
 
-.title-hide {
+.title-hide, .our-projects-hide {
     display: none;
 }
 .advantages .title {
@@ -127,7 +127,7 @@ ul {
 
 /* Team */
 .our-team {
-    background-color: var(--team-background-color);
+    background-color: var(--team-buttons-background-color);
     text-align: center;
 }
 
@@ -162,4 +162,45 @@ ul {
 
 .address-link {
     color: var(--white-color);
+}
+
+
+/* Portfolio */
+
+.filter-buttons {
+    display: flex;
+}
+
+.button-list {
+    background-color: var(--team-buttons-background-color);
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    border: inherit;
+    border-radius: 4px;
+}
+
+.button-list:hover,
+.button-list:focus {
+    background-color: var(--accent-color);
+    color: var(--white-color);
+    cursor: pointer;
+}
+
+.name-of-project {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+}
+
+.type-of-project {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: var(--submain-text-color);
 }
