@@ -109,18 +109,19 @@ ul {
 }
 
 /* Duty */
+.duty {
+    text-align: center;
+}
 
 .duty-title, .our-team-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
-    text-align: center;
     color: var(--main-text-color);
 }
-.duty-immages {
-    text-align: center;
+/* .duty-immages {
     display: flex;    
-}
+} */
 
 /* Team */
 .our-team {
