@@ -14,6 +14,7 @@ body {
     font-family: Roboto, sans-serif;
     font-size: 14px;
     letter-spacing: 0.03em;
+    font-weight: 400;
 }
 
 ul {
@@ -103,7 +104,6 @@ ul {
 
 .description {
     color: var(--submain-text-color);
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
 }
@@ -149,7 +149,7 @@ ul {
 }
 .contact-down-list-link {
     font-style: normal;
-    font-weight: 400;
+    font-weight: inherit;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -195,7 +195,6 @@ ul {
 }
 
 .type-of-project {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
