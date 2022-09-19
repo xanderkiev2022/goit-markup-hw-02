@@ -42,7 +42,9 @@ ul {
     color: var(--accent-color);
 }
 
-.nav-list-link, .contact-list-link {
+.nav-list-link, 
+.nav-list-link-active, 
+.contact-list-link {
     color: inherit;
     font-weight: 500;
     font-size: 14px;
@@ -52,7 +54,8 @@ ul {
 }
   
 .contact-list-link:hover, 
-.contact-list-link:focus{
+.contact-list-link:focus,
+.nav-list-link-active{
     color: var(--accent-color);
 }
 
@@ -63,12 +66,14 @@ ul {
 /* Main-Top */
 .hero {
     background-color: var(--hero-footer-background-color);
+    text-align: center;
+}    
+.hero-title {
     color: var(--white-color);  
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     letter-spacing: 0.06em;
-    text-align: center;
     text-transform: uppercase;
 }
 .hero-button {
@@ -160,6 +165,16 @@ ul {
 
 .address-link {
     color: var(--white-color);
+}
+
+.contact-down-list-link:hover,
+.contact-down-list-link:focus{
+    color: var(--accent-color);
+}
+
+.address-link:hover,
+.address-link:focus {
+    color: var(--accent-color);
 }
 
 
